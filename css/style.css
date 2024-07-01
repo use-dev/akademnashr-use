@@ -7,10 +7,20 @@ body{
 
 /* -----SITE HEADER----- */
 .site-header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   background-color: #fff;
 }
 
+.header-actions{
+  display: flex;
+  align-items: center;
+}
+
+/* SITE NAV */
 .sitenav-list{
+  display: flex;
   list-style: none;
 }
 
@@ -34,6 +44,9 @@ body{
 
 /* -----HERO----- */
 .hero{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   background-color: #252420;
   color: #fff;
 }
@@ -44,12 +57,15 @@ body{
   color: #ff7500;
 }
 
+.hero-content{
+  width: 390px;
+}
+
 .hero-heading{
   font-size: 40px;
   line-height: 48px;
   font-family: "Roboto Condensed", "Arial", sans-serif;
 }
-
 
 .hero-img{
   width: 510px;
@@ -67,6 +83,12 @@ body{
   font-family: "Roboto Condensed", "Arial", sans-serif;
 }
 
+.feature-list{
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+
 .feature-icon-wrapper{
   width: 100px;
   height: 100px;
@@ -82,6 +104,9 @@ body{
 
 /* -----PROMO----- */
 .promo{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   background-color: #252420;
   color: #fff;
 }
@@ -111,13 +136,28 @@ body{
   background-color: #f8f8f8;
 }
 
+.site-footer-top{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 .site-footer ul{
   list-style: none;
+}
+
+.footer-social{
+  display: flex;
+  align-items: center;
 }
 
 .footer-hr{
   height: 2px;
   background-color: rgba(37, 36, 32, 0.5);
+}
+
+.site-footer-bottom{
+  display: flex;
 }
 
 .site-footer-link-list{
