@@ -10,6 +10,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
 
   <!-- CSS style link -->
+  <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -24,10 +25,18 @@
       <!-- SITE NAV -->
       <nav class="sitenav">
         <ul class="sitenav-list">
-          <li class="sitenav-links"><a href="index.html">Bosh sahifa</a></li>
-          <li class="sitenav-links"><a href="#">Kitoblar</a></li>
-          <li class="sitenav-links"><a href="#">Aksiylar</a></li>
-          <li class="sitenav-links"><a href="#">Kontaktlar</a></li>
+          <li class="sitenav-item">
+            <a "sitenav-links" href="index.html">Bosh sahifa</a>
+          </li>
+          <li class="sitenav-item">
+            <a "sitenav-links" href="#">Kitoblar</a>
+          </li>
+          <li class="sitenav-item">
+            <a "sitenav-links" href="#">Aksiylar</a>
+          </li>
+          <li class="sitenav-item">
+            <a "sitenav-links" href="#">Kontaktlar</a>
+          </li>
         </ul>
       </nav>
 
@@ -83,9 +92,11 @@
     <section class="promo">
       <div class="promo-content">
         <h2 class="promo-heading">Bolalar kitoblari uchuna joyib aksiya!</h2>
-        <p class="promo-text">Ertaklar, she’rlar, sarguzasht asarlar, fikrlashni o’stirish uchun turli mashq qo’llanmalari va komikslar.</p>
-        <p class="promo-text">Aksiyadagi eng katta to’plamda <strong class="promo-hight-light">50 ta kitob</strong>ni <strong class="promo-hight-light">350 ming</strong> so’mga (aslida 383 ming so’m) sotib olishingiz mumkin
+        <div class="promo-info-wrapper">
+          <p class="promo-text">Ertaklar, she’rlar, sarguzasht asarlar, fikrlashni o’stirish uchun turli mashq qo’llanmalari va komikslar.</p>
+          <p class="promo-text">Aksiyadagi eng katta to’plamda <strong class="promo-hight-light">50 ta kitob</strong>ni <strong class="promo-hight-light">350 ming</strong> so’mga (aslida 383 ming so’m) sotib olishingiz mumkin
         </p>
+        </div>
         <a class="main-btn" href="#">Buyurtma berish</a>
       </div>
 

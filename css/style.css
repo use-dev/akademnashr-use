@@ -43,6 +43,16 @@ body{
   display: flex;
   list-style: none;
   padding: 0;
+  margin: 0;
+  margin-right: 32px;
+}
+
+.sitenav-item{
+  margin: 32px;
+}
+
+.sitenav-item:last-child{
+  margin-right: 0;
 }
 
 .sitenav-links{
@@ -100,6 +110,8 @@ body{
 .orange-line{
   width: 80px;
   height: 3px;
+  margin: 0;
+  margin-bottom: 40px;
   border-radius: none;
   color: #ff7500;
 }
@@ -111,7 +123,14 @@ body{
 .hero-heading{
   font-size: 40px;
   line-height: 48px;
+  margin-top: 0;
+  margin-bottom: 24px;
   font-family: "Roboto Condensed", "Arial", sans-serif;
+}
+
+.hero-text{
+  margin-top: 0;
+  margin-bottom: 32px;
 }
 
 .hero-img{
@@ -126,22 +145,28 @@ body{
   padding-bottom: 210px;
 }
 
-
 .feature-heading{
   font-size: 72px;
   line-height: 87px;
   font-family: "Roboto Condensed", "Arial", sans-serif;
+  margin-top: 0;
+  margin-bottom: 72px;
 }
 
 .feature-list{
   display: flex;
-  justify-content: space-between;
   list-style: none;
   padding: 0;
+  margin: 0;
 }
 
 .feature{
   width: 340px;
+  margin-right: 40px;
+}
+
+.feature:last-child{
+  margin-right: 0;
 }
 
 .feature-icon-wrapper{
@@ -178,9 +203,24 @@ body{
 }
 
 .promo-heading{
+  margin-top: 0;
+  margin-bottom: 24px;
   font-size: 48px;
   line-height: 48px;
   font-family: "Roboto Condensed", "Arial", sans-serif;
+}
+
+.promo-info-wrapper{
+  margin-bottom: 24px;
+}
+
+.promo-text{
+  margin-top: 0;
+  margin-bottom: 12px;
+}
+
+.promo-text:last-child{
+  margin-bottom: 0;
 }
 
 .promo-hight-light{
@@ -216,9 +256,19 @@ body{
   display: flex;
   align-items: center;
   padding: 0;
+  margin: 0;
+}
+
+.footer-social li{
+  margin-right: 16px;
+}
+
+.footer-social li:last-child{
+  margin-right: 0;
 }
 
 .footer-social a{
+  display: block;
   color: #252420;
 }
 
@@ -230,9 +280,15 @@ body{
   opacity: 0.6;
 }
 
+.footer-social svg{
+  display: block;
+}
+
 .footer-hr{
   height: 2px;
   border: 0;
+  margin-top: 40px;
+  margin-bottom: 64px;
   background-color: rgba(37, 36, 32, 0.5);
 }
 
@@ -242,7 +298,15 @@ body{
 
 .site-footer-link-list{
   width: 224px;
+  padding: 0;
+  margin: 0;
+  margin-right: 68px;
+  list-style: none;
   line-height: 19px;
+}
+
+.site-footer-link-list:last-child{
+  margin-right: 0;
 }
 
 .site-footer-link-list a{
