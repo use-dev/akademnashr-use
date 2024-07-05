@@ -1,4 +1,10 @@
+*{
+  box-sizing: border-box;
+}
+
 body{
+  padding: 0;
+  margin: 0;
   font-size: 16px;
   line-height: 1.5;
   font-family: "Roboto", "Arial" sans-serif;
@@ -10,15 +16,27 @@ body{
   outline-offset: 3px;
 }
 
+.container{
+  width: 100%;
+  max-width: 1140px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
 /* -----SITE HEADER----- */
 .site-header{
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
   padding-top: 16px;
   padding-bottom: 16px;
   border-top: 5px solid #ff7500;
   background-color: #fff;
+}
+
+.site-header-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .logo-link{
@@ -102,13 +120,16 @@ body{
 
 /* -----HERO----- */
 .hero{
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
   padding-top: 80px;
   padding-bottom: 80px;
   background-color: #252420;
   color: #fff;
+}
+
+.hero-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .orange-line{
@@ -141,6 +162,7 @@ body{
   width: 510px;
   height: 510px;
   border-radius: 8px;
+  box-shadow: 24px 24px 0 0 rgba(255, 117, 0, 0.6);
 }
 
 /* -----FEATURES----- */
@@ -179,24 +201,35 @@ body{
   align-items: center;
   width: 100px;
   height: 100px;
+  margin-bottom: 32px;
   border-radius: 50%;
   background-color: rgba(255, 117, 0, 0.2);
 }
 
 .feature-title{
+  margin-top: 0;
+  margin-bottom: 12px;
   font-size: 26px;
   line-height: 1.2;
   font-family: "Roboto Condensed", "Arial", sans-serif;
 }
 
+.feature-info{
+  margin: 0;
+}
+
 
 /* -----PROMO----- */
 .promo{
+  padding-top: 120px;
+  padding-bottom: 160px;
+}
+
+.promo-inner{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-top: 120px;
-  padding-bottom: 160px;
+  padding: 64px;
   border-radius: 12px;
   background-color: #252420;
   color: #fff;
@@ -311,6 +344,14 @@ body{
 
 .site-footer-link-list:last-child{
   margin-right: 0;
+}
+
+.site-footer-link-list li{
+  margin-bottom: 16px;
+}
+
+.site-footer-link-list li:last-child{
+  margin-bottom: 0;
 }
 
 .site-footer-link-list a{
